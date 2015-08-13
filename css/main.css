@@ -95,89 +95,72 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-@media screen and (min-width: 401px) { /*adjusts width from smallest screen to next */
+ body{
+    font-size: .8rem;
+   }
+section {
+    text-align: center;
+}
 
-    header {
-        width:100%;
-        position: fixed;
-        margin-top: -10rem;
-        text-align: center;
-    }
-    body {
-        padding-top:5rem; 
-    }
-   
-
-   
-   
-
-
-
-
-
-}/*first media screen closing bracket*/
-@media screen and (min-width: 1000px) { /*adjusts width from med screen to large */
-    header {
-        width:100%;
-        margin-top: -0rem;
-        text-align: center;
-        font-size: 2rem;
-    }
-    
-    body {
-        padding-top:0rem;
-        padding-right: 1rem;
-        padding-left: 1rem;
-        
-    }
-    nav {
-        padding-top: 5rem;
-        position:fixed;
-        font-size: 2rem;
-    }
-
-    section {
-        position: fixed;
-    }
-    article {
-        padding-left: 10rem;
-        padding-left: 20rem;
-    }
-    
-    
-    /*img:nth-child(even) {float:left;
-    }*/
-    /*p:nth-child(odd) {float:left;
-    }
-*/
+h1{
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: lightgrey;
+}
+h1 a {
+  text-decoration: none;
+}
+h2 {margin-top: 3.5em;
+    margin-left: 3em;
+}
 
 
+.logo {
+  margin-top: 4em;
+  height: 100px;
+  width: 100px;
 
+}
 
+ul{
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 0 1;
+  padding: 0;
+}
 
+li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+article{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: .5em;
+  padding-top: .5em;
 
-
-
-
-}/*second media screen closing bracket*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+article img{
+  float: left;
+  width: 25%;
+  height:25%;
+  padding: 1em;
+}
+article p{
+  padding-left: 1em;
+  margin-top: 0em;
+  font-size: 1.1em;
+}
+article h2{
+  margin-bottom: 0em;
+  font-family: 'nerisblack';
+}
 
 
 
