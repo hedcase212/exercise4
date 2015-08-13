@@ -97,6 +97,7 @@ textarea {
 
  body{
     font-size: .8rem;
+     background: linear-gradient(to right, grey, white, purple);
    }
 section {
     text-align: center;
@@ -159,12 +160,79 @@ article p{
 }
 article h2{
   margin-bottom: 0em;
-  font-family: 'nerisblack';
+}
+/* Stage two, bigger screen*/
+
+@media only screen and (min-width: 520px) {
+
+  article:nth-of-type(odd) img{
+    float: right;
+    width: 33%;
+    height:33%;
+    padding: 1em;
 }
 
+  body {
+    background: linear-gradient(to right, grey, white, purple);
+    font-size: 1.1rem;
+    font-family: comic;
+}
 
+h1{
+  text-shadow: -2px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  font-size: 3.2rem;
+  font-color: purple;
+  padding-top: 5rem;
+}
 
+section {
+  position:fixed;
+  margin-left: 2rem;
+  margin-top: -10rem;
+}
 
+article {
+  margin-left: 30%;
+  margin-top: 5rem;
+}
+
+article img{
+  float: left;
+  width: 33%;
+  height:33%;
+  padding: 1em;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  float:left;
+}
+ul {
+  position:fixed;
+  list-style-type: none;
+  width: 100%;
+  text-align: left;
+  padding-top: 13rem;
+}
+nav {
+  padding-top: 0rem;
+  margin-left: 5rem;
+}
+li a {
+  font-size: 2rem;
+}
+li {
+  padding-bottom: 1rem;
+}
+
+}
 
 
 
