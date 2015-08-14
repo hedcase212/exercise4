@@ -163,7 +163,7 @@ article h2{
 }
 /* Stage two, bigger screen*/
 
-@media only screen and (min-width: 520px) {
+@media only screen and (min-width: 401px) {
 
   article:nth-of-type(odd) img{
     float: right;
@@ -185,7 +185,7 @@ h1{
   width: 100%;
   text-align: center;
   background-color: transparent;
-  font-size: 3.2rem;
+  font-size: 2rem;
   font-color: purple;
   padding-top: 5rem;
 }
@@ -223,17 +223,27 @@ ul {
 }
 nav {
   padding-top: 0rem;
-  margin-left: 5rem;
+  margin-left: 1rem;
 }
 li a {
-  font-size: 2rem;
+  font-size: 1.0rem;
 }
 li {
   padding-bottom: 1rem;
 }
 
 }
+@media only screen and (min-width: 1000px) {
+  h1 {font-size: 3.2rem}
+  nav {
+  padding-top: 0rem;
+  margin-left: 5rem;
+}
+  li a {
+  font-size: 2.0rem;
+}
 
+}
 
 
 
